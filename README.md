@@ -4,7 +4,7 @@ Extension for use the picture tag with Datenstrom Yellow
 ## How to use the picture extension
 
 * **Work only with `.jpg` at moment.**
-* You have to change ImageUploadWidthMax and ImageUploadHeightMax to the double from that you need. (ImageUploadWidthMax: 2600 ImageUploadHeightMax: 2600)
+* You have to change `ImageUploadWidthMax` and `ImageUploadHeightMax` to the double from that you need. `(ImageUploadWidthMax: 2600 Image | UploadHeightMax: 2600)`
 * The image extension is required even if only the picture extension is used.
 * Upload the image to your website as usual.
 * Replace image with picture in the shortcode.
