@@ -25,7 +25,7 @@ This will be the result:
     <picture>
         <source type="image/jpeg" srcset="/media/images/retina-desktop-pizza02.jpg" media="(min-width: 576px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 576px) and (min-resolution: 192dpi)">
         <source type="image/jpeg" srcset="/media/images/desktop-pizza02.jpg" media="(min-width: 576px)">
-        <source type="image/jpeg" srcset="/first/media/images/mobile-pizza02.jpg" media="(min-width: 0px)">
+        <source type="image/jpeg" srcset="/media/images/mobile-pizza02.jpg" media="(min-width: 0px)">
         <img src="/media/images/desktop-pizza02.jpg" width="2600" height="1950" alt="your alt text" title="your alt text" class="imageclass" />
     </picture>
   
