@@ -3,7 +3,7 @@ Extension for use the picture tag with Datenstrom Yellow
 
 ## How to use the picture extension
 
-* Work only with `.jpg` at moment
+* **Work only with `.jpg` at moment.**
 * The image extension is required even if only the picture extension is used.
 * Upload the image to your website as usual.
 * Replace image with picture in the shortcode.
@@ -31,12 +31,12 @@ This will be the result:
   
 ## Additional Information and my thoughts
 
-I am not a professional coder, everyone can see that immediately from the source code. I would be glad if someone with more knowledge would improve the code :)
+**I am not a professional coder, everyone can see that immediately from the source code. I would be glad if someone with more knowledge would improve the code :)**
 
-* three image files are created. retina-desktop-pizza02.jpg, desktop-pizza02.jpg and mobile-pizza02.jpg.
+* three image files are created. `retina-desktop-pizza02.jpg`, `desktop-pizza02.jpg` and `mobile-pizza02.jpg`.
 * current mobile phones all use retina displays. There is no need for small images.
 * all devices larger than mobile phones most use wifi. Bandwidth is usually not a problem here.
-* 576px is the smallest breakpoint of Bootstrap. This value can be changed in Yellow-system.ini (PictureMobileBreakpoint: 576)
+* `576px` is the smallest breakpoint of Bootstrap. This value can be changed in `Yellow-system.ini (PictureMobileBreakpoint: 576)`
 
 
 ## Installation
