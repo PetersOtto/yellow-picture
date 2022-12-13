@@ -3,7 +3,7 @@ Extension for use the picture tag with Datenstrom Yellow
 
 ## How to use the picture extension
 
-* ** Work only with .jpg at moment **
+* Work only with `.jpg` at moment
 * The image extension is required even if only the picture extension is used.
 * Upload the image to your website as usual.
 * Replace image with picture in the shortcode.
