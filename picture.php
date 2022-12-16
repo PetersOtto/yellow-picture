@@ -61,6 +61,7 @@ class YellowPicture {
         return $output;
     }
 
+    // convert image size and sharpen the image
     function convertImage($name, $nameRetinaDesktop, $nameDesktop, $nameMobile, $widthInput, $heightInput, $type) {
         $path = $this->yellow->lookup->findMediaDirectory("coreImageLocation");
         $srcOriginal = $path . $name;
@@ -76,6 +77,7 @@ class YellowPicture {
         $this->resizeAndSharpenImage($srcOriginal, $srcMobile, $widthInput, $heightInput, $widthOutputMobile, $type);
     }
 
+    // sharpen the image
     public function resizeAndSharpenImage($srcOriginal, $srcChange, $widthInput, $heightInput, $widthOutput, $type) {
         $heightInput = $widthInput * ($heightInput / $widthInput);
         $heightOutput = $widthOutput * ($heightInput / $widthInput);
