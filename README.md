@@ -30,8 +30,7 @@ This will be the result:
     </picture>
   
 ## Additional Information and my thoughts
-
-**I am not a professional coder, everyone can see that immediately from the source code. I would be glad if someone with more knowledge would improve the code :)**
+**This extension is still very experimental and not yet properly developed!**
 
 * three image files are created. `retina-desktop-pizza02.jpg`, `desktop-pizza02.jpg` and `mobile-pizza02.jpg`.
 * current mobile phones all use retina displays. There is no need for small images.
